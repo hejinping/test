@@ -12,6 +12,8 @@ public class TestApplication {
         System.out.println(123);
 
         SpringApplication.run(TestApplication.class, args);
+
+        System.out.println(55555);
     }
 
 }
