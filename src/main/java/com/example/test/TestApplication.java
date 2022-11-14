@@ -1,22 +1,16 @@
 package com.example.test;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.io.File;
 
 @SpringBootApplication
 public class TestApplication {
 
+
     public static void main(String[] args) {
-        System.out.println(9999);
-
-        System.out.println(123);
-
-        SpringApplication.run(TestApplication.class, args);
-
-
-        System.out.println("2312");
-
-        System.out.println(55555);
+        File file = new File("/Users/hjp/Desktop/照片 2/JGG_5086.JPG");
+        System.out.println(file.length() / 1024);
     }
 
 }
